@@ -10,8 +10,8 @@ ideal_weight < 0 ? puts("Ваш вес уже оптимальный") : puts("#
 
 =begin #Альтернативное решение
 if ideal_weight < 0
-	puts "Ваш вес уже оптимальный"
+  puts "Ваш вес уже оптимальный"
 else 
-	puts "#{name}, ваш идеальный вес = #{ideal_weight} кг"
+  puts "#{name}, ваш идеальный вес = #{ideal_weight} кг"
 end
 =end
