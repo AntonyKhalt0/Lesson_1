@@ -11,7 +11,7 @@ a, b, hypo = [first_side, second_side, third_side].sort
 isosceles = (hypo == a || hypo == b || a == b)
 right_triangle = hypo**2 == a**2 + b**2 
 
-if hypo > 0 && a > 0 && b > 0
+if hypo.positive? && a.positive? && b.positive?
   if hypo == a && hypo == b
     puts "Треугольник равносторонний!"
   elsif right_triangle
